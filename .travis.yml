@@ -2,4 +2,4 @@ language: python
 sudo: false
 install: true
 script: 
-  - compile
+  - python -m pytest -v
